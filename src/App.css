@@ -1,0 +1,157 @@
+#brand-name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30pt;
+  font-weight: bold;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a {
+  color: grey;
+  font-size: 15pt;
+  transition: 0.3s ease-in-out;
+}
+#nav-shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3%;
+}
+
+.nav {
+  margin-top: 10px;
+  /* padding-top: 40pt; */
+  margin-right: 40pt;
+}
+
+#nav-social-icon {
+  /* margin-top: 90px; */
+  /* padding-top: 40pt; */
+  margin-right: 90px;
+  margin-top: 50px;
+}
+
+.copyright {
+  display: inline;
+  color: white;
+  font-size: 15px;
+}
+
+#brand-img {
+  height: 150px;
+  width: 110px;
+  margin-top: 15pt;
+  padding-right: 15px;
+  margin-left: 100px;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  transform: rotate(45deg);
+}
+
+h1 {
+  font-size: 20pt;
+}
+
+.profile-img {
+  height: 400px;
+  width: 550px;
+}
+
+img {
+  float: left;
+  padding-right: 30px;
+  padding-left: 30px;
+  clear: both;
+}
+div {
+  clear: both;
+}
+
+footer {
+  background-color: black;
+  height: 60px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.container {
+  clear: both;
+  background-color: white;
+  height: 1500px;
+}
+
+#message {
+  height: 400px;
+}
+
+#category {
+  background-color: grey;
+  color: white;
+  font-size: 20pt;
+  font-weight: bold;
+}
+.img-fluid {
+  border: none;
+  width: 100%;
+  height: auto;
+}
+
+#ill-bg {
+  /* background-image: url("../Images/houses-and-boats_thumb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+
+#graphic-bg {
+  /* background-image: url("../Images/Boats_thumb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+#web-bg {
+  /* background-image: url("../Images/Vision_thumb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+#art-bg {
+  /* background-image: url("../Images/Woman_thumb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+
+.portfolio-hover {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio-hover:hover {
+  opacity: 0.3;
+}
+
+.portfolio-text {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  pointer-events: none;
+}
+
+.form-control {
+  max-height: 200px;
+}
+
+li {
+  list-style: none;
+  float: inline-end;
+}
